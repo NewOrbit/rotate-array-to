@@ -1,6 +1,6 @@
 {
   "name": "rotate-array-to",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Rotate an array to start a specified index",
   "main": "index.js",
   "dependencies": {},
