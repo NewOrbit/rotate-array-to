@@ -11,7 +11,8 @@
     "typescript": "^3.1.4"
   },
   "scripts": {
-    "test": "tsc && alsatian test.js",
+    "build": "tsc -p ./",
+    "test": "npm run build && alsatian test.js",
     "lint": "tslint -c tslint.json index.ts test.ts"
   },
   "repository": {
