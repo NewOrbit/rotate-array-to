@@ -1,3 +1,5 @@
+/* tslint:disable:no-default-export */
+
 const rotateArrayTo = <T>(array: T[], index: number) => {
     const elementsAfterTarget = array.slice(index, array.length);
     const elementsBeforeTarget = array.slice(0, index);
@@ -5,4 +7,4 @@ const rotateArrayTo = <T>(array: T[], index: number) => {
     return [ ...elementsAfterTarget, ...elementsBeforeTarget ];
 };
 
-export { rotateArrayTo };
+export default rotateArrayTo;

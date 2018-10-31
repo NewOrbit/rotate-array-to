@@ -1,5 +1,5 @@
 import { TestFixture, TestCase, Expect } from "alsatian";
-import { rotateArrayTo } from "./index";
+import rotateArrayTo from "./index";
 
 @TestFixture()
 export class RotateArrayAtTests {
